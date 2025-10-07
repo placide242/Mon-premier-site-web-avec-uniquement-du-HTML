@@ -1,0 +1,7 @@
+Créez une page "À propos de moi" contenant :
+- Un en-tête avec votre nom
+- Une navigation (Accueil, À propos, Projets, Contact)
+- Une section avec votre photo et description
+- Une liste de vos compétences
+- Un formulaire de contact
+- Un pied de page
