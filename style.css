@@ -1,0 +1,190 @@
+/* Styles pour mon site web */
+
+
+body { /* Style du corps de la page */
+  background-color: rgb(9, 72, 94);
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.6;
+  color: aliceblue;
+}
+
+header{ /* Style de l'en-tête */
+  background-color: rgba(70, 114, 107, 0.603);
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+nav {  /* Style de la barre de navigation */
+  background-color: rgba(18, 112, 96, 0.658);
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+nav ul { /* Style de la liste de navigation */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}  
+
+h1 { /* Style du titre principal */
+  color: rgb(255, 255, 3);
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+nav ul li {  /* Style des éléments de la liste de navigation */
+  margin: 0 15px;
+}
+
+nav a{  /* Style des liens de navigation */
+  color: rgb(238, 201, 37);
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav a:hover { /* Style des liens de navigation au survol */
+  background-color: rgba(70, 114, 107, 0.658);
+  color: white;
+}
+
+h2 { /* Style des sous-titres */
+  color: rgb(230, 230, 19);
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+main { /* Style de la section principale */
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(57, 150, 136, 0.658);
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+p { /* Style des paragraphes */
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+img { /* Style des images */
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 0 10px 50%;
+  border: 5px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+main ul{ /* Style des listes non ordonnées dans la section principale */
+  padding-left: 20px;
+  line-height: 2;
+}
+
+main ul li { /* Style des éléments des listes non ordonnées dans la section principale */
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #277054;
+  border-left: 4px solid #4CAF50;
+  border-radius: 3px;
+}
+
+form { /* Style des formulaires */
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #41a07b;
+  border-radius: 8px;
+}
+
+form label { /* Style des étiquettes de formulaire */
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea { /* Style des champs de saisie et des zones de texte */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus { /* Style des champs de saisie et des zones de texte au focus */
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+form button { /* Style des boutons de formulaire */
+ width: 100%;
+ padding: 12px;
+ background-color: #4CAF50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ font-size: 18px;
+ cursor: pointer;
+ font-weight: bold;
+}
+
+form button:hover { /* Style des boutons de formulaire au survol */
+  background-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer { /* Style du pied de page */
+  background-color: rgba(70, 114, 107, 0.603);
+  color : rgb(233, 218, 218);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer a { /* Style des liens dans le pied de page */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover { /* Style des liens dans le pied de page au survol */
+  text-decoration: underline;
+}
+
+/* Styles pour les écrans de moins de 600px de large */
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+}
+
