@@ -1,4 +1,4 @@
-# 🌐 Mon premier site web avec uniquement du HTML
+# 🌐 Mon premier site web 
 
 > 💡 *Chaque développeur a un premier pas. Voici le mien.*
 
