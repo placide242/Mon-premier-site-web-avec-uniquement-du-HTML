@@ -76,6 +76,16 @@ main { /* Style de la section principale */
 p { /* Style des paragraphes */
   margin-bottom: 15px;
   text-align: justify;
+  background-color: #53af8c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bloc-p p { /* Style des paragraphes dans le pied de page */
+  background-color: transparent;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-style: italic;
 }
 
 img { /* Style des images */
